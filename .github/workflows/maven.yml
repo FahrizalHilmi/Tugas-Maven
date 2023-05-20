@@ -33,7 +33,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       run: mvn verify sonar:sonar 
       -Dsonar.host.url=https://sonarcloud.io 
-      -Dsonar.organization=jatihusen 
-      -Dsonar.projectKey=jatihusen_Basic-Java-Maven
+      -Dsonar.organization=fahrizalhilmi
+      -Dsonar.projectKey=FahrizalHilmi_Tugas-Maven
       
     
